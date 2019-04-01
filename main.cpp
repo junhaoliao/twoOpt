@@ -28,11 +28,11 @@ int main() {
     unsigned i = 1;
     unsigned j = myVect.size() - 1;
 
-    auto newVecter = two_opt(myVect,3,4);
+    auto newVecter = two_opt(myVect,2,4);
     for(unsigned i=0;i<newVecter.size();i++){
         std::cout<<newVecter[i]<<" "<<std::endl;
     }
-    
+
 //    std::cout<<std::thread::hardware_concurrency()<<std::endl;
 
 
